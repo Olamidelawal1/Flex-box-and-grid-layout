@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:hsl(0, 0%, 95%);
+}
+
+a{
+    color:black;
+}
+
+main{
+    margin-left:15%;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     height:85vh;
+     padding:2cm;
+     font-size: 15px;
+     width:50%;
+
+}
+@media only screen and (max-width: 1440px) and (min-width:600px){
+    main{
+        flex-direction:row;
+        margin-right:10px;
+        width:50%;
+        height:100%;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:320px){
+    main{
+        flex-direction:column;
+        margin-left:auto;
+        width:100%;
+        height:100%;
+    }
+}
+
+.Sedan{
+    background-color: hsl(31, 77%, 52%);
+    height:60vh;
+    width:33.3%;
+    padding:2.5em;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+}
+
+.SUV{
+    background-color: hsl(184, 100%, 22%);
+    height:60vh;
+    width:33.3%;
+    padding:2.5em;
+}
+
+.Luxury{
+    background-color: hsl(179, 100%, 13%);
+    height:60vh;
+    width:33.3%;
+    padding:2.5em;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+}
+.Luxury p{
+    padding-bottom:45px;
+}
+
+img{
+    padding-bottom: 30px;
+}
+
+h2{
+    padding-bottom: 20px;
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight:700;
+}
+
+p{
+    padding-bottom: 50px; 
+    color: hsla(0, 0%, 100%, 0.75); 
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:400;
+}
+
+button{
+    padding: 0.7rem;
+    color:hsl(0, 0%, 95%);
+    background-color:transparent;
+    border-color:hsl(0, 0%, 95%);
+    border-radius:25px;
+    border-width:2px;
+    cursor:pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:400;
+    
+}
+
